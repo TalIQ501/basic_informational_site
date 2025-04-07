@@ -17,7 +17,7 @@ const server = http.createServer( async (req, res) => {
                 filePath = path.join(__dirname, 'index.html')
             } else if (req.url === '/about') {
                 filePath = path.join(__dirname, 'about.html')
-            } else if (req.url === '/contact-me' || req.url === 'contact') {
+            } else if (req.url === '/contact-me' || req.url === '/contact') {
                 filePath = path.join(__dirname, 'contact-me.html');
             } else {
                 filePath = path.join(__dirname, '404.html');
