@@ -1,0 +1,16 @@
+{
+  "name": "basic_informational_site",
+  "version": "1.0.0",
+  "description": "This is a basic website built with Node js which routes between multiple HTML files.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
